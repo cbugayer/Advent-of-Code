@@ -50,24 +50,4 @@ def get_result(file):
             result += get_middle(update)
     return result
 
-# print(get_result("day 5/sample_.txt"))
-print(get_result("day 5/ordering_rules.txt"))
-# correct_order = [5,2,74,23]
-# co_len = len(correct_order)
-
-# def in_correct_order(update):
-#     i = 0
-#     j = 0
-#     u_len= len(update)
-#     while i < co_len and j < u_len:
-        
-#         if update[j] == correct_order[i]:
-#             j += 1
-#             i += 1
-#         else:
-#             i += 1
-
-#     if j == u_len:
-#         return True
-#     return False
-
+# print(get_result("day 5/ordering_rules.txt"))
